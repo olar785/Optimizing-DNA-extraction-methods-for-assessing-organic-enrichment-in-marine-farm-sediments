@@ -42,6 +42,7 @@ mv $Output/18S* $Output/fastq_18S
 Database_fasta='/home/olivierl/apps/Metagenetics_Projects/Databases/SILVA_132_QIIME_release/silva_132_99_16S.fna'
 Database_txt='/home/olivierl/apps/Metagenetics_Projects/Databases/SILVA_132_QIIME_release/16S_taxonomy_7_levels.txt'
 Metadata_file='/home/olivierl/lus/fish_farms/Metadata_16S.txt'
+mkdir /home/olivierl/lus/fish_farms/Results_16S_Dada2
 Outputs='/home/olivierl/lus/fish_farms/Results_16S_Dada2'
 fastqManifest='/home/olivierl/lus/fish_farms/Fastq_manifest_16S.csv'
 
@@ -166,6 +167,7 @@ qiime tools export \
 Database_fasta='/home/olivierl/apps/Metagenetics_Projects/Databases/SILVA_132_QIIME_release/silva_132_99_18S.fna'
 Database_txt='/home/olivierl/apps/Metagenetics_Projects/Databases/SILVA_132_QIIME_release/18S_taxonomy_7_levels.txt'
 Metadata_file='/home/olivierl/lus/fish_farms/Metadata_18S.txt'
+mkdir /home/olivierl/lus/fish_farms/Results_18S_Dada2
 Outputs='/home/olivierl/lus/fish_farms/Results_18S_Dada2'
 fastqManifest='/home/olivierl/lus/fish_farms/Fastq_manifest_18S.csv'
 
